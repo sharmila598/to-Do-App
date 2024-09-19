@@ -1,3 +1,4 @@
+import TodoList from "./components/TodoList";
 import AddTask from "./components/AddTask";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
         <h1 className="text-3xl font-poppins">To-Do-List</h1>
         <AddTask />
       </div>
+      <TodoList />
     </main>
   );
 }
